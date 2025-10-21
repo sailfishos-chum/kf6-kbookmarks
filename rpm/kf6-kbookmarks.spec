@@ -68,8 +68,8 @@ developing applications that use %{name}.
 
 %files devel
 
-%{_kf6_includedir}/KF6/KBookmarks/
+%{_kf6_includedir}/KBookmarks/
 %{_kf6_libdir}/libKF6Bookmarks.so
 %{_kf6_libdir}/cmake/KF6Bookmarks/
-%{_kf6_archdatadir}/mkspecs/modules/qt_KBookmarks.pri
+#%%{_kf6_archdatadir}/mkspecs/modules/qt_KBookmarks.pri
 
