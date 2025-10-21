@@ -23,8 +23,6 @@ BuildRequires: kf6-kcoreaddons-devel >= %{kf6_version}
 BuildRequires: kf6-kwidgetsaddons-devel >= %{kf6_version}
 BuildRequires: kf6-kxmlgui-devel >= %{kf6_version}
 
-Requires:  kf6-filesystem
-
 %description
 KBookmarks lets you access and manipulate bookmarks stored using the
 XBEL format.
