@@ -9,7 +9,7 @@ License: LGPLv2+
 URL:     https://invent.kde.org/frameworks/kbookmarks
 Source0: %{name}-%{version}.tar.bz2
 
-6uildRequires: opt-extra-cmake-modules >= %{kf6_version}
+BuildRequires: kf6-extra-cmake-modules
 BuildRequires: kf6-rpm-macros
 BuildRequires: kf6-kcodecs-devel >= %{kf6_version}
 BuildRequires: kf6-kconfig-devel >= %{kf6_version}
