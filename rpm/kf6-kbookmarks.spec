@@ -47,9 +47,6 @@ developing applications that use %{name}.
 %autosetup -n %{name}-%{version}/upstream -p1
 
 %build
-export QTDIR=%{_qt6_prefix}
-touch .git
-
 %cmake_kf6
 %cmake_build
 
