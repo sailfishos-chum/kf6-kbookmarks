@@ -1,4 +1,4 @@
-%global kf6_version 6.28.0
+%global kf_version 6.28.0
 
 Name: kf6-kbookmarks
 Version: 6.28.0
@@ -12,16 +12,16 @@ BuildRequires: kf6-extra-cmake-modules
 BuildRequires: gcc-c++
 BuildRequires: cmake
 BuildRequires: kf6-rpm-macros
-BuildRequires: kf6-kcodecs-devel >= %{kf6_version}
+BuildRequires: kf6-kcodecs-devel >= %{kf_version}
 BuildRequires: qt6-qtbase-devel
 BuildRequires: qt6-qttools-devel
 
-BuildRequires: kf6-kconfig-devel >= %{kf6_version}
-BuildRequires: kf6-kconfigwidgets-devel >= %{kf6_version}
-BuildRequires: kf6-kcolorscheme-devel >= %{kf6_version}
-BuildRequires: kf6-kcoreaddons-devel >= %{kf6_version}
-BuildRequires: kf6-kwidgetsaddons-devel >= %{kf6_version}
-BuildRequires: kf6-kxmlgui-devel >= %{kf6_version}
+BuildRequires: kf6-kconfig-devel >= %{kf_version}
+BuildRequires: kf6-kconfigwidgets-devel >= %{kf_version}
+BuildRequires: kf6-kcolorscheme-devel >= %{kf_version}
+BuildRequires: kf6-kcoreaddons-devel >= %{kf_version}
+BuildRequires: kf6-kwidgetsaddons-devel >= %{kf_version}
+BuildRequires: kf6-kxmlgui-devel >= %{kf_version}
 
 %description
 KBookmarks lets you access and manipulate bookmarks stored using the
